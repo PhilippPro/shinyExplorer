@@ -8,15 +8,15 @@
 #'   \code{runApp()} function.
 #' @examples
 #' \dontrun{
-#'   runShinyMlr()
+#'   shinyExplorer()
 #' }
 #' @import shiny
 #' @import shinythemes
 #' @export
-runShinyMlr = function(...) {
-  appDir = system.file("shinyMlr", package = "shinyMlr")
+shinyExplorer = function(...) {
+  appDir = system.file("shinyExplorer", package = "shinyExplorer")
   if (appDir == "") {
-    stop("Could not find example directory. Try re-installing `shinyMlr`.", call. = FALSE)
+    stop("Could not find example directory. Try re-installing `shinyExplorer`.", call. = FALSE)
   }
 
   shiny::runApp(appDir, display.mode = "normal")
