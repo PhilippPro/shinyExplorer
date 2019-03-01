@@ -1,4 +1,4 @@
-# shinyExplorer: Package for explorative data analysis with shiny
+# shinyExplorer: Explorative data analysis with shiny
 
 Major functionalities:
 
@@ -25,3 +25,7 @@ runShinyMlr()
 ## Problems with rJava on OSX Yosemite
 
 If `rJava` fails to load, [**this link**](https://stackoverflow.com/questions/30738974/rjava-load-error-in-rstudio-r-after-upgrading-to-osx-yosemite) might be helpful!
+
+## Origin
+
+The package originated from [shinyMlr](https://github.com/mlr-org/shinyMlr).
