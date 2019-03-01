@@ -30,27 +30,11 @@ shinyUI(
           tabPanel("Preprocessing", tabpanel.preprocessing,
             icon = icon("magic"))
         ),
-        tabPanel("Task", tabpanel.task, icon = icon("flag")),
-        tabPanel("Learners", tabpanel.learners,
-          icon = icon("cog")),
-        tabPanel("Tuning", tabpanel.tuning,
-          icon = icon("wrench")),
-        navbarMenu("Train and Predict", icon = icon("graduation-cap"),
-          tabPanel("Train", tabpanel.train),
-          tabPanel("Predict", tabpanel.predict),
-          tabPanel("Performance & Visualisation", tabpanel.performance)
-        ),
-        tabPanel("Benchmark", tabpanel.benchmark,
-          icon = icon("hourglass-start")),
         tabPanel("Report", tabpanel.report,
           icon = icon("book")),
         tabPanel(title = "hide_me"),
-        tabPanel(title = div(class = "navbarlink-container",
-          tags$img(height = "20px", alt = "mlr Logo",
-            src = "new_mlr_logo.png")
-        ), value = "https://github.com/mlr-org/mlr"),
         tabPanel(title = "", icon = icon("github", "fa-lg"),
-          value = "https://github.com/mlr-org/mlr"),
+          value = "https://github.com/philipppro/shinyExplorer"),
         
         footer = tagList(
           includeScript("scripts/top-nav-links.js"),
@@ -68,12 +52,9 @@ shinyUI(
             #   column(width = 6, align = "left",
             tags$p(id = "copyright",
               tags$img(icon("copyright")),
-              2017,
-              tags$a(href = "https://github.com/Coorsaa",
-                target = "_blank", "Stefan Coors, "),
-              tags$a(href = "https://github.com/florianfendt",
-                target = "_blank", "Florian Fendt"),
-              " (members of the mlr-organization)"
+              2019,
+              tags$a(href = "https://github.com/philipppro",
+                target = "_blank", "Philipp Probst")
             ),
             tags$p(id = "help_toggler",
               bsButton(inputId = "show_help", label = "show help",

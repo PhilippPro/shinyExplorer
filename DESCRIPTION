@@ -6,9 +6,9 @@ Description:
   This enables the user to conduct all steps of the machine learning workflow from his browser.
 Authors@R: c(
   person("Philipp", "Probst", email = "philipp_probst@gmx.de",
-    role = "aut", "cre"),
+    role = c("aut", "cre")),
   person("Stefan", "Coors", email = "mail@stefancoors.de",
-    role = c("ctb")),
+    role = "ctb"),
   person("Florian", "Fendt", email = "flo_fendt@gmx.de",
     role = "ctb"),
   person("Bernd", "Bischl", email = "bernd_bischl@gmx.net", 

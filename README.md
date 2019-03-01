@@ -18,7 +18,7 @@ devtools::install_github("philipppro/shinyExplorer")
 Starting shinyMlr:
 
 ```r
-runShinyMlr()
+shinyExplorer()
 ```
 
 
