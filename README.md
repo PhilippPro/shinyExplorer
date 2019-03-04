@@ -8,14 +8,14 @@ Major functionalities:
 - Many visualisations
 - Report creation
 
-## Installation and starting shinyMlr
+## Installation and starting shinyExplorer
 
 You can simply install the package from github:
 
 ```r
 devtools::install_github("philipppro/shinyExplorer")
 ```
-Starting shinyMlr:
+Starting shinyExplorer:
 
 ```r
 shinyExplorer()
